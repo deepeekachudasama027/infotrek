@@ -77,7 +77,7 @@ router.get('/about', function(req, res) {
 async function getdetails(rollno) {
   const result = await pool.query("select * from  registration WHERE rollno = $1",
   [rollno]);
-  console.log(result[0]);
+  console.log("result :",result[0]);
   if(result[0].length<1)
     return 1;
   else 
