@@ -77,7 +77,10 @@ router.get('/about', function(req, res) {
 async function getdetails(rollno) {
   const result = await pool.query("select * from  registration WHERE rollno = $1",
   [rollno]);
-  return result[0].length;
+  if(result[0].length<1)
+    return 1;
+  else 
+  return 0;
 }
 
 async function updatedetails(rollno,password,name) {
@@ -92,7 +95,7 @@ router.post("/auth", function (request, response) {
  
   if ('${rollno}'.length==9 && password && name) {
       const val =  getdetails(rollno);
-         if(val>0) {
+         if(val==1) {
           response.render("layout/registration", {
             data: "already exists ",
           });
