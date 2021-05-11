@@ -92,7 +92,7 @@ router.post("/auth", function (request, response) {
  
   if ('${rollno}'.length==9 && password && name) {
       const val =  getdetails(rollno);
-         if(val.rows.length>0) {
+         if(val.length>0) {
           response.render("layout/registration", {
             data: "already exists ",
           });
