@@ -3,7 +3,7 @@
 const { Pool } = require('pg');
 var config = {
     connectionString: process.env.DATABASE_URL || 'postgresql://postgres:Acm@2022@localhost:5432/infotrek',
-    ssl: process.env.DATABASE_URL ? true : false,
+    ssl: { rejectUnauthorized: false },
     max: 10, 
     idleTimeoutMillis: 1000000
 };
