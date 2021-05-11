@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
+
+body {
+  background-image: radial-gradient(rgb(123, 34, 126), rgb(26, 27, 77), #000);
+  font-family: Blinker, sans-serif !important;
+  letter-spacing: 0.1rem;
+  height: 100%;
+}
+
+.heading {
+  margin-top: 5%;
+  margin-left: 38%;
+  color: white;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 35px;
+  position: relative;
+  margin: 40px 0;
+  color: white;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(23, 230, 230);
+  bottom: -10px;
+  left: 20%;
+  transform: translate(-50%);
+  animation: animate 6s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    width: 100px;
+  }
+  50% {
+    width: 200px;
+  }
+  100% {
+    width: 100px;
+  }
+}
+
+.container {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  background: rgb(5, 3, 5);
+  padding: 15px;
+}
+.container img {
+  width: 100%;
+  display: block;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+  transition: all 100ms ease-out;
+}
+.container img:hover {
+  transform: scale(1.04);
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    margin-left: 0.1rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 5rem !important;
+    text-align: center;
+  }
+
+  h1 {
+    left: 0.5rem;
+  }
+
+  h1::before {
+    left: 12rem;
+  }
+}
