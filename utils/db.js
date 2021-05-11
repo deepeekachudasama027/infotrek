@@ -2,10 +2,10 @@
 
 const { Pool } = require('pg');
 var config = {
-    user: 'postgres',
-    host: 'localhost',
-    database: 'testdb',
-    password: 'Acm@2022',
+    user: 'czwsfkumvhwqbz',
+    host: 'ec2-54-163-254-204.compute-1.amazonaws.com',
+    database: 'd3cevik2kpuoi2',
+    password: '97767c407ed1482ad379d659e57f0f583d2049c29523ced624f09e1e332854ab',
     port: 5432,
     max: 10, // max number of clients in the pool
     idleTimeoutMillis: 30000
