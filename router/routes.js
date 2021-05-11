@@ -95,7 +95,7 @@ router.post("/auth", function (request, response) {
   var name =  request.body.name;
  
   if ('${rollno}'.length==9 && password && name) {
-      const val =  getdetails(rollno);
+      const val = await getdetails(rollno);
          if(val==1) {
           response.render("layout/registration", {
             data: "already exists ",
@@ -103,7 +103,7 @@ router.post("/auth", function (request, response) {
          } 
             else
             {
-                 val = updatedetails(rollno,password,name);
+                 val = await updatedetails(rollno,password,name);
                   response.render("layout/registration", {
                     data: "success ",
                 })
