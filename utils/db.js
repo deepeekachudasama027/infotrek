@@ -2,10 +2,8 @@
 
 const { Pool } = require('pg');
 var config = {
-    connectionString: process.env.DATABASE_URL,
-    ssl: {
-      rejectUnauthorized: false
-    },
+    connectionString: process.env.DATABASE_URL || 'postgresql://postgres:Acm@2022@localhost:5432/infotrek',
+    ssl: process.env.DATABASE_URL ? true : false,
     max: 10, 
     idleTimeoutMillis: 1000000
 };
@@ -16,4 +14,4 @@ pool.on('error', function (err, client) {
 
 
 module.exports =pool;
-require("../models/registration");
+
