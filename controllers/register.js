@@ -19,6 +19,8 @@ exports.getdetails = async (req,res,next) =>{
                 })
             }
         }
+        else 
+            res.redirect("/registration");
       
     } catch(err){
         next(err);
