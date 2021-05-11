@@ -20,7 +20,7 @@ router.get("/registration", function (request, response) {
     var password = request.body.password;
     var name =  request.body.name;
    
-    if (rollno.toString().length==9 && password && name) {
+    if ('${rollno}'.length==9 && password && name) {
       pool.query(
         "select * from  registration WHERE rollno = $1",
         [rollno],
