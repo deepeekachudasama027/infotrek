@@ -1,86 +1,71 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>INFOTREK'21 | Registration</title>
-    <link rel="icon" href="../image/template/logo.png" type="image/png" />
-    <meta
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-      name="viewport"
-    />
-    <link rel="shortcut icon" href="images/association-for-computing-machinery-logo.png">
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-      crossorigin="anonymous"
-    />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/register_style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
-    />
-  </head>
 
-  <body>
-    <nav class="navbar">
+<head>
+  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>INFOTREK'21 | Registration</title>
+  <link rel="icon" href="../image/template/logo.png" type="image/png" />
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+  <link rel="shortcut icon" href="images/association-for-computing-machinery-logo.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+    integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/register_style.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <nav class="navbar">
     <div>
-      <a href="/" class="navbar-brand"
-      ><img src="images/infotrek.png" alt=""
-    /></a>
-  </div>
+      <a href="/" class="navbar-brand"><img src="images/infotrek.png" alt="" /></a>
+    </div>
 
+    <div>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+    </div>
+
+    <div class="navbar-links">
+      <ul>
+        <li><a href="/about"> About Us </a></li>
+        <li><a href="/events">Events</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+        <li><a href="/registration">Registration</a></li>
+        <li><a href="/contact">Contact </a></li>
+        <li><a href="/team">Our team</a></li>
+
+      </ul>
+    </div>
+  </nav>
   <div>
-    <a href="#" class="toggle-button">
-      <span class="bar"></span>
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </a>
-  </div>
-
-  <div class="navbar-links">
-    <ul>
-       <li><a href="/about"> About Us </a></li>
-      <li><a href="/events">Events</a></li>
-      <li><a href="/gallery">Gallery</a></li>
-      <li><a href="/registration">Registration</a></li>
-      <li><a href="/contact">Contact </a></li>
-      <li><a href="/team">Our team</a></li>
-     
-    </ul>
-  </div>
-</nav>
-<div>
     <form class="box" method="POST" action="register">
       <h1 class="event-page">Registration</h1>
       <input type="text" name="name" placeholder="Your Name" autocomplete="off" autocapitalize="on" required />
-      <input type="text" pattern="\d*" name="rollno" placeholder="Roll Number" autocomplete="off" minlength="9" maxlength="9" required />
+      <input type="text" pattern="\d*" name="rollno" placeholder="Roll Number" autocomplete="off" minlength="9"
+        maxlength="9" required />
       <input type="Password" name="password" placeholder="Password" autocomplete="off" minlength="5" required />
       <input type="Submit" name="register" value="Register" />
-     <p style="color: peachpuff;">{{message}}</p> 
+      <p style="color: peachpuff;">{{message}}</p>
     </form>
-    </div>
-     <script>
-      const toggleButton = document.getElementsByClassName('toggle-button')[0]
-      const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+  </div>
+  <script>
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-      toggleButton.addEventListener('click', () => {
-          navbarLinks.classList.toggle('active')
-      })
+    toggleButton.addEventListener('click', () => {
+      navbarLinks.classList.toggle('active')
+    })
 
 
   </script>
-  </body>
+</body>
+
 </html>

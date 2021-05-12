@@ -1,12 +1,4 @@
-
-
 var pool = require("../controllers/db");
-// pool.query(
-//   "DROP TABLE IF EXISTS registration;",
-//   function (err, result) {
-//     if (err) console.log(err);
-//   }
-// );
 
 pool.query(
   "CREATE TABLE IF NOT EXISTS registration (rollno int PRIMARY KEY ,password varchar (50),name varchar (50))",
@@ -15,12 +7,18 @@ pool.query(
   }
 );
 
-exports.getrollno = (rollno,callback) => {
- return  pool.query("select * from  registration WHERE rollno = $1",
-  [rollno],callback);
-}
+exports.getrollno = (rollno, callback) => {
+  return pool.query(
+    "select * from  registration WHERE rollno = $1",
+    [rollno],
+    callback
+  );
+};
 
-exports.updatedetails = (rollno,password,name,callback) => {
-  return  pool.query("Insert into registration (rollno,password,name) values ($1,$2,$3) ",
-  [ rollno,password,name],callback);
- }
+exports.updatedetails = (rollno, password, name, callback) => {
+  return pool.query(
+    "Insert into registration (rollno,password,name) values ($1,$2,$3) ",
+    [rollno, password, name],
+    callback
+  );
+};

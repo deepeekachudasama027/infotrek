@@ -1,4 +1,3 @@
-
 const express = require("express");
 const exphbs = require("express-handlebars");
 const path = require("path");
@@ -48,10 +47,6 @@ app.use(
 app.use(cors());
 app.use(router);
 
-
-
-
 app.listen(process.env.PORT || 3333, () => {
   console.log("Welcome to INFOTREK.....");
 });
-
