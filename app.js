@@ -47,6 +47,6 @@ app.use(
 app.use(cors());
 app.use(router);
 
-app.listen(process.env.PORT || 3333, () => {
+app.listen(process.env.PORT , () => {
   console.log("Welcome to INFOTREK.....");
 });
