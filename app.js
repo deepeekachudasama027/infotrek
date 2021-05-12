@@ -3,6 +3,7 @@ const exphbs = require("express-handlebars");
 const path = require("path");
 const session = require("express-session");
 const compression = require("compression");
+const errorHandler = require('./middleware/error');
 
 const router = require("./router/routes");
 
@@ -31,8 +32,8 @@ app.use(
   session({
     secret: "Keep it secret",
     name: "uniqueSessionID",
-    resave: true,
-    saveUninitialized: false,
+    resave: false,
+    saveUninitialized: true,
   })
 );
 app.use(compression());
@@ -43,7 +44,7 @@ app.use(
     extended: true,
   })
 );
-
+app.use(errorHandler);
 app.use(cors());
 app.use(router);
 

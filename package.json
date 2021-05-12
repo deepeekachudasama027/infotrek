@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "compression": "^1.7.4",
+    "connect-pg-simple": "^6.2.1",
     "cores": "^0.8.5",
     "cors": "^2.8.5",
     "dotenv": "^9.0.2",
