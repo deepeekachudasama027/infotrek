@@ -3,7 +3,7 @@ const {getrollno,updatedetails} = require("../models/registration");
 
 exports.getdetails = async (req,res,next) =>{
     try{
-        if(`${req.body.rollno}`.length===9 && req.body.password && req.body.name) {
+        if(req.body.rollno && req.body.password && req.body.name) {
             const getdata = await getrollno(req.body.rollno);
             if(getdata.rowCount>0)
             {
