@@ -63,13 +63,13 @@
   </div>
 </nav>
 <div>
-    <form class="box" method="POST" action="auth">
+    <form class="box" method="POST" action="register">
       <h1 class="event-page">Registration</h1>
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="text" name="rollno" placeholder="Roll Number" required />
-      <input type="Password" name="password" placeholder="Password" required />
+      <input type="text" name="name" placeholder="Your Name" autocomplete="off" required />
+      <input type="text" name="rollno" placeholder="Roll Number" autocomplete="off" required />
+      <input type="Password" name="password" placeholder="Password" autocomplete="off" required />
       <input type="Submit" name="register" value="Register" />
-     <p style="color: white;">{{data}}</p> 
+     <p style="color: peachpuff;">{{message}}</p> 
     </form>
     </div>
      <script>
