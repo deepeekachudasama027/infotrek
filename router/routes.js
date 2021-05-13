@@ -33,4 +33,9 @@ router.get("/about", (req, res) => {
 
 router.post("/register", getdetails);
 
+
+router.get("/*", (req, res) => {
+  res.sendFile(path.resolve("./public/static/index.html"));
+});
+
 module.exports = router;
