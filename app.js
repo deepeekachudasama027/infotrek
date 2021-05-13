@@ -26,7 +26,7 @@ app.use(express.static(__dirname + "/public"));
 
 const cors = require("cors");
 
-require("dotenv").config({ path: "./configure.env" });
+// require("dotenv").config({ path: "./configure.env" });
 
 // app.use(
 //   session({
