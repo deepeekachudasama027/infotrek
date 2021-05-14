@@ -8,16 +8,15 @@ const router = require("./router/routes");
 
 const app = express();
 
-app.set("views", path.join(__dirname, "/views/"));
-app.engine(
-  "handlebars",
-  exphbs({
-    extname: ".hbs",
-    defaultLayout: "registration",
-    layoutsDir: __dirname + "/views/layouts/",
-    challengesDir: __dirname + "/views/static/",
-  })
-);
+app.set("views", path.join(__dirname, "/views/layout"));
+// app.engine(
+//   "handlebars",
+//   exphbs({
+//     extname: ".hbs",
+//     defaultLayout: "registration",
+//     layoutsDir: __dirname + "/views/layouts/"
+//   })
+// );
 
 app.set("view engine", "hbs");
 
