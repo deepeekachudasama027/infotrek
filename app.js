@@ -8,7 +8,7 @@ const router = require("./router/routes");
 
 const app = express();
 
-app.set("views", path.join(__dirname, "/views/layout"));
+app.set("views", path.join(__dirname, "/views/"));
 // app.engine(
 //   "handlebars",
 //   exphbs({
