@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const path = require("path");
-// const { getdetails } = require("../controllers/register");
+const { getdetails } = require("../controllers/register");
 
 router.get("/", (req, res) => {
   res.sendFile(path.resolve("./public/static/index.html"));
@@ -31,7 +31,7 @@ router.get("/about", (req, res) => {
   res.sendFile(path.resolve("./public/static/about.html"));
 });
 
-// router.post("/register", getdetails);
+router.post("/register", getdetails);
 
 router.get("/pre-register",(req, res) => {
   res.sendFile(path.resolve("./public/static/pre-registration.html"));
