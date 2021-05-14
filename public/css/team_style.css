@@ -1,18 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 
 body {
   
   overflow-x: hidden;
   overflow-wrap: normal;
-  background-image: radial-gradient(rgb(65, 105, 225), rgb(26, 27, 77), #000);
+  background-color: black;
+  /* background-image: radial-gradient(circle, #051937, #001b31, #001b29, #001b20, #031919); */
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   color: #0c222b; 
  
 }
 
+#myVideo {
+  background-size: auto;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 
 .navbar {
   display: flex;
@@ -95,21 +105,25 @@ body {
 
 .container1 {
   
-  margin-left: 2.5rem;
+  margin-left: 4rem;
   margin-right: 2rem;
   align-items: center;
   text-align: center;
 }
 
 .container1 h1 {
+  font-family: 'Montserrat', sans-serif ;
+  color: rgb(243, 166, 23) !important;
+  text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
+  font-size: 50px;
   color: whitesmoke;
   margin-top: 2%;
   margin-bottom: 0.3rem;
-  margin-right: 6rem;
+  margin-right: 5rem;
 }
 
 .dropdown {
-  margin-top: 4%;
+  margin-top: -4%;
   margin-bottom: 0.1rem;
   color: #fff;
   list-style-type: none;
@@ -227,6 +241,7 @@ body {
   width: fit-content;
   height: 150px;
   width: 245px;
+ 
   background: url("../images/back.jpg") no-repeat;
   background-size: cover;
   -webkit-backface-visibility: hidden;
@@ -303,6 +318,7 @@ body {
   width: 100%;
   background-color: #02080e;
   border-radius: 5px;
+  border: 2px solid white;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -356,6 +372,7 @@ body {
 
   body{
     overflow-wrap: normal;
+    
   }
 
   

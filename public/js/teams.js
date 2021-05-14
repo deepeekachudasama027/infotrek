@@ -68,7 +68,7 @@ function func23(){
          <div class="inner-div">
            <div class="front">
              <div class="front__bkg-photo"></div>
-             <div class="front__face-photo" style="background: url(images/Batch2k23/SimranGarg.jpeg) no-repeat; background-size: contain; padding-top: 1%;"></div>
+             <div class="front__face-photo" style="background: url(images/Batch2k23/simran.jpg) no-repeat; background-size: contain; padding-top: 1%;"></div>
              <div class="front__text">
                <h3 class="front__text-header">Simran Garg</h3>
                
@@ -329,13 +329,13 @@ function func22(){
           </div>
           <div class="back">
             <div class="social-media-wrapper">
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://m.facebook.com/akanksha.phalwadiya" target="_blank" class="social-icon"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.linkedin.com/in/akanksha-phalwadiya-1785811b0" target="_blank" class="social-icon"
                 ><i class="fab fa-linkedin-in" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.instagram.com/akanksha_phalwadiya/" target="_blank" class="social-icon"
                 ><i class="fab fa-instagram" aria-hidden="true"></i
               ></a>
             </div>
@@ -499,13 +499,13 @@ function func22(){
           </div>
           <div class="back">
             <div class="social-media-wrapper">
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.facebook.com/darshni.gupta.1/" target="_blank" class="social-icon"
                 ><i class="fab fa-facebook-square" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.linkedin.com/in/darshni-gupta-0867991b6/" target="_blank" class="social-icon"
                 ><i class="fab fa-linkedin-in" aria-hidden="true"></i
               ></a>
-              <a href="#" target="_blank" class="social-icon"
+              <a href="https://www.instagram.com/darshg19/" target="_blank" class="social-icon"
                 ><i class="fab fa-instagram" aria-hidden="true"></i
               ></a>
             </div>
@@ -546,27 +546,6 @@ function func21(){
         </div>
      <div class="row h-100 justify-content-center align-items-center">
      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-     <div class="outer-div">
-       <div class="inner-div">
-         <div class="front">
-           <div class="front__bkg-photo"></div>
-           <div class="front__face-photo" style="background: url(images/Batch2k21/Ravina.jpg) no-repeat; background-size: contain;"></div>
-           <div class="front__text">
-             <h3 class="front__text-header">Ravina Verma</h3>
-             <p class="front__text-para"></p>
-            </div>
-         </div>
-         <div class="back">
-           <div class="social-media-wrapper">
-             <a href="https://www.facebook.com/profile.php?id=100008625315580" target= "_blank"class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-             <a href="https://www.linkedin.com/in/ravina-verma-61b366170/" target= "_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-              <a href="https://www.instagram.com/ravina5123/" target= "_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-           </div>
-         </div>
-       </div>
-     </div>
-     </div>
-     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
          <div class="outer-div">
            <div class="inner-div">
              <div class="front">
@@ -574,7 +553,7 @@ function func21(){
                <div class="front__face-photo" style="background: url(images/Batch2k21/YashKumarSinghal.jpg) no-repeat; background-size: contain;"></div>
                <div class="front__text">
                  <h3 class="front__text-header">Yash Kumar Singhal</h3>
-                 <p class="front__text-para"></p>
+                 <p class="front__text-para">Chairman</p>
                </div>
              </div>
              <div class="back">
@@ -587,6 +566,72 @@ function func21(){
          </div>
          </div>  
          <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+         <div class="outer-div">
+             <div class="inner-div">
+               <div class="front">
+                 <div class="front__bkg-photo"></div>
+                 <div class="front__face-photo" style="background: url(images/Batch2k21/Rajrishi_Vishwakarma.jpg) no-repeat; background-size: contain;"></div>
+                 <div class="front__text">
+                   <h3 class="front__text-header">Rajrishi Vishwakarma</h3>
+                   <p class="front__text-para">Treasurer</p>
+                 </div>
+               </div>
+               <div class="back">
+                 <div class="social-media-wrapper">
+                   <a href="https://www.linkedin.com/in/rajrishi-vishwakarma-42294613a/" target= "_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                 </div>
+               </div>
+             </div>
+         </div>
+         </div>
+     
+         
+             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+             <div class="outer-div">
+               <div class="inner-div">
+                 <div class="front">
+                   <div class="front__bkg-photo"></div>
+                   <div class="front__face-photo" style="background: url(images/Batch2k21/amit.jpg) no-repeat; background-size: contain;" ></div>
+                   <div class="front__text">
+                     <h3 class="front__text-header">Amit Sahu</h3>
+                     <p class="front__text-para">Web Master</p>
+                   </div>
+                 </div>
+                 <div class="back">
+                   <div class="social-media-wrapper">
+                     <a href="https://www.facebook.com/amit.sahu.566148" target= "_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                     <a href="https://www.linkedin.com/in/amit-sahu-73329b147/" target= "_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                      <a href="https://www.instagram.com/amit_9216" target= "_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             </div>
+     </div>
+   
+    <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div class="outer-div">
+              <div class="inner-div">
+                <div class="front">
+                  <div class="front__bkg-photo"></div>
+                  <div class="front__face-photo" style="background: url(images/Batch2k21/Ravina.jpg) no-repeat; background-size: contain;"></div>
+                  <div class="front__text">
+                    <h3 class="front__text-header">Ravina Verma</h3>
+                    <p class="front__text-para">Programmer</p>
+                   </div>
+                </div>
+                <div class="back">
+                  <div class="social-media-wrapper">
+                    <a href="https://www.facebook.com/profile.php?id=100008625315580" target= "_blank"class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/ravina-verma-61b366170/" target= "_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                     <a href="https://www.instagram.com/ravina5123/" target= "_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>       
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
              <div class="outer-div">
                <div class="inner-div">
                  <div class="front">
@@ -594,7 +639,7 @@ function func21(){
                    <div class="front__face-photo" style="background: url(images/Batch2k21/Yugansh.jpg) no-repeat; background-size: contain;"></div>
                    <div class="front__text">
                      <h3 class="front__text-header">Yugansh Arora</h3>
-                     <p class="front__text-para"></p>
+                     <p class="front__text-para">Education In-charge</p>
                    </div>
                  </div>
                  <div class="back">
@@ -606,31 +651,6 @@ function func21(){
                </div>
              </div>
              </div>
-     
-     </div>
-   
-    <div class="row">
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-    <div class="outer-div">
-      <div class="inner-div">
-        <div class="front">
-          <div class="front__bkg-photo"></div>
-          <div class="front__face-photo" style="background: url(images/Batch2k21/amit.jpg) no-repeat; background-size: contain;" ></div>
-          <div class="front__text">
-            <h3 class="front__text-header">Amit Sahu</h3>
-            <p class="front__text-para"></p>
-          </div>
-        </div>
-        <div class="back">
-          <div class="social-media-wrapper">
-            <a href="https://www.facebook.com/amit.sahu.566148" target= "_blank" class="social-icon"><i class="fab fa-facebook-square" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/in/amit-sahu-73329b147/" target= "_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-             <a href="https://www.instagram.com/amit_9216" target= "_blank" class="social-icon"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
     <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="outer-div">
           <div class="inner-div">
@@ -639,7 +659,7 @@ function func21(){
               <div class="front__face-photo" style="background: url(images/Batch2k21/nikki_singh.jpg) no-repeat; background-size: contain;"></div>
               <div class="front__text">
                 <h3 class="front__text-header">Nikki Singh</h3>
-                <p class="front__text-para"></p>
+                <p class="front__text-para">Public Relations In-charge</p>
               </div>
             </div>
             <div class="back">
@@ -659,7 +679,7 @@ function func21(){
                   <div class="front__face-photo" style="background: url(images/Batch2k21/Preeti_Jatav.jpg) no-repeat; background-size: contain;"></div>
                   <div class="front__text">
                     <h3 class="front__text-header">Preeti Jatav</h3>
-                    <p class="front__text-para"></p>
+                    <p class="front__text-para">Resource In-charge</p>
                    </div>
                 </div>
                 <div class="back">
@@ -672,26 +692,8 @@ function func21(){
               </div>
             </div>
             </div>
-             
-    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-    <div class="outer-div">
-        <div class="inner-div">
-          <div class="front">
-            <div class="front__bkg-photo"></div>
-            <div class="front__face-photo" style="background: url(images/Batch2k21/Rajrishi_Vishwakarma.jpg) no-repeat; background-size: contain;"></div>
-            <div class="front__text">
-              <h3 class="front__text-header">Rajrishi Vishwakarma</h3>
-              <p class="front__text-para"></p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="social-media-wrapper">
-              <a href="https://www.linkedin.com/in/rajrishi-vishwakarma-42294613a/" target= "_blank" class="social-icon"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-    </div>
-    </div>
+            
+    
     </div>
     </div>`;
 }

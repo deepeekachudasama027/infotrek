@@ -33,4 +33,8 @@ router.get("/about", (req, res) => {
 
 router.post("/register", getdetails);
 
+router.get("/pre-register",(req, res) => {
+  res.sendFile(path.resolve("./public/static/pre-registration.html"));
+});
+
 module.exports = router;

@@ -1,14 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-  background-image: radial-gradient(circle, #6f369b, #523087, #372972, #1f215c, #081846);
-  animation: gradient 10s ease infinite;
+  /* background-image: radial-gradient(circle, #1d2c43, #1d324b, #1d3953, #1b3f5b, #184663, #0f455f, #06455b, #004457, #003b47, #003238, #00282a, #001f1d); */
+  /* background-image: radial-gradient(circle, #6f369b, #523087, #372972, #1f215c, #081846);
+  animation: gradient 10s ease infinite; */
   font-family: Blinker, sans-serif;
   color: #0c222b;
   background-position: center;
+  background-color: black;
   height: 100%;
+  overflow-y: hidden;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
 
 @keyframes gradient {
   0% {
@@ -32,6 +44,10 @@ body {
     color: white;
     margin-top: 5%;
     margin-bottom: 5%;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif ;
+    color: rgb(243, 166, 23) !important;
+    text-shadow: -1px -1px rgb(226, 208, 175), 1.5px 2px hsla(0,0%,5%,0.5);
   }
 
  
@@ -66,6 +82,11 @@ body {
   height: 25rem;
 }
 
+#deepeeka {
+  width: 23rem;
+  height: 25rem;
+}
+
 .container .card .content {
   position: absolute;
   bottom: -160px;
@@ -88,9 +109,12 @@ body {
   bottom: 0;
   transition-delay: 0s;
 }
+
+
+
 .container .card .content .contentBx h3 {
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(242, 248, 250);
   letter-spacing: 2px;
   font-weight: 500;
   font-size: 18px;
@@ -103,13 +127,14 @@ body {
   opacity: 0;
   transform: translateY(-20px);
 }
+
 .container .card:hover .content .contentBx h3 {
   opacity: 1;
   transform: translateY(0);
 }
 .container .card .content .contentBx h3 span {
-  font-size: 12px;
-  font-weight: 300;
+  font-size: 14px;
+  font-weight: 400;
   text-transform: initial;
 }
 .container .card .content .sci {
@@ -137,7 +162,7 @@ body {
   margin-left: 0.05rem;
 }
 .container .card .content .sci li a i{
-  color: white;
+  color: rgb(241, 233, 233);
   font-size: 24px;
   margin-left: 0.01rem;
 }
@@ -150,7 +175,7 @@ body {
 }
 
 .fas:hover{
-  color: rgb(87, 177, 115) !important;
+  color: rgb(10, 10, 10) !important;
 }
 
 .fab {
@@ -161,7 +186,7 @@ body {
 }
 
 .fab:hover{
-  color: rgb(87, 177, 115) !important;
+  color: rgb(3, 3, 3) !important;
 }
 
 @media screen and (max-width: 800px) {
