@@ -7,7 +7,7 @@ exports.getdetails = async (req, res, next) => {
       const getdata = await getrollno(req.body.rollno);
       if (getdata.rowCount > 0) {
         res.render("layout/registration", {
-          message: "already exists ",
+          message: "Already Exists ",
         })
       } else {
         const updatedata = await updatedetails(
@@ -25,7 +25,7 @@ exports.getdetails = async (req, res, next) => {
           req.body.password
         )
         res.render("layout/registration", {
-          message: "successfully registered ",
+          message: "Successfully Registered ",
         })
       }
     } else res.redirect("/registration");
