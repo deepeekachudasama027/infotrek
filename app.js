@@ -1,7 +1,6 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
 const path = require("path");
-// const session = require("express-session");
 const compression = require("compression");
 const errorHandler = require('./middleware/error');
 
@@ -26,16 +25,6 @@ app.use(express.static(__dirname + "/public"));
 
 const cors = require("cors");
 
-// require("dotenv").config({ path: "./configure.env" });
-
-// app.use(
-//   session({
-//     secret: "Keep it secret",
-//     name: "uniqueSessionID",
-//     resave: false,
-//     saveUninitialized: false,
-//   })
-// );
 app.use(compression());
 
 app.use(express.json());
