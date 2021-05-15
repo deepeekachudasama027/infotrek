@@ -10,6 +10,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/gallery_style.css" />
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/preloader_gallery.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
@@ -25,6 +26,12 @@
     <title>INFOTREK'21 | GALLERY</title>
 </head>
   <body>
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
     <video autoplay muted loop id="myVideo">
       <source src="images/2.mp4" type="video/mp4">
     </video>
@@ -129,6 +136,19 @@
     </div>
 
     <script>
+
+$(window).load(function () {
+        console.log("hi");
+        $(".loader").delay(2000).fadeOut("slow");
+        $("#overlayer").delay(2000).fadeOut("slow");
+      });
+
+      $(document).ready(function () {
+        setTimeout(function () {
+          $("body").addClass("loaded");
+        }, 1500);
+      });
+
       const toggleButton = document.getElementsByClassName('toggle-button')[0]
       const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
