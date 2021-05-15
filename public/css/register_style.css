@@ -6,7 +6,6 @@ body {
   letter-spacing: 0.1rem;
   overflow-x: hidden;
   background-color: black;
-  /* background-image: linear-gradient(to right, rgb(34, 97, 126), rgb(26, 27, 77)); */
 }
 
 #myVideo {
@@ -17,17 +16,7 @@ body {
   min-height: 100%;
   z-index: -1;
 }
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
+
 
 .navbar {
   display: flex;
@@ -147,7 +136,6 @@ body {
   background:#000;
 
   border-radius: 5%;
-  /* border: 0.2px solid white; */
   text-align: center;
   box-shadow: 5px 5px 5px rgba(217, 222, 228, 0.3);
  

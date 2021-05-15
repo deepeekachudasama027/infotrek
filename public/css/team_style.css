@@ -7,7 +7,6 @@ body {
   overflow-x: hidden;
   overflow-wrap: normal;
   background-color: black;
-  /* background-image: radial-gradient(circle, #051937, #001b31, #001b29, #001b20, #031919); */
   font-family: Blinker, sans-serif;
   letter-spacing: 0.1rem;
   color: #0c222b; 
@@ -280,7 +279,6 @@ body {
   position: relative;
   top: -55px;
   margin: 0 auto;
-  /* font-family: "Montserrat"; */
   font-size: 16px;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;

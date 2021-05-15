@@ -2,9 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 body {
-  /* background-image: radial-gradient(circle, #1d2c43, #1d324b, #1d3953, #1b3f5b, #184663, #0f455f, #06455b, #004457, #003b47, #003238, #00282a, #001f1d); */
-  /* background-image: radial-gradient(circle, #6f369b, #523087, #372972, #1f215c, #081846);
-  animation: gradient 10s ease infinite; */
   font-family: Blinker, sans-serif;
   color: #0c222b;
   background-position: center;
@@ -20,18 +17,6 @@ body {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 70% 100%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
   
