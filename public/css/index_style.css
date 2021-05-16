@@ -265,7 +265,7 @@ body {
 @media screen and (max-width: 800px) {
   #cs {
     top: 35rem;
-    margin-left: 15%;
+    margin-left: 12%;
     position: fixed;
     height: 7%;
   }
@@ -282,6 +282,14 @@ body {
 
   .navbar-links li a {
     font-size: 0.8rem;
+  }
+
+  .hero .timer {
+    padding: 0;
+    position: fixed;
+    bottom: 30%;
+    right: 10%;
+    margin-top: 24rem;
   }
 }
 
