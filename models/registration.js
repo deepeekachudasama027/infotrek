@@ -17,7 +17,7 @@ exports.getrollno = (rollno, callback) => {
 
 exports.updatedetails = (rollno, password, name, email, callback) => {
   return pool.query(
-    "Insert into registration (rollno,password,name,email) values ($1,$2,$3,$4) ",
+    "Insert into registration (rollno,password,name,email) values ($1,$2,$3,$4) on conflict do nothing ",
     [rollno, password, name,email],
     callback
   );
