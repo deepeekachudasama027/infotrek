@@ -7,9 +7,9 @@ router.get("/", (req, res) => {
   res.sendFile(path.resolve("./public/static/index.html"));
 });
 
-router.get("/registration", (req, res) => {
-  res.render("layout/registration");
-});
+// router.get("/registration", (req, res) => {
+//   res.render("layout/registration");
+// });
 
 router.get("/gallery", (req, res) => {
   res.sendFile(path.resolve("./public/static/gallery.html"));
@@ -31,7 +31,7 @@ router.get("/about", (req, res) => {
   res.sendFile(path.resolve("./public/static/about.html"));
 });
 
-router.post("/register", getdetails);
+// router.post("/register", getdetails);
 
 router.get("/pre-register",(req, res) => {
   res.sendFile(path.resolve("./public/static/pre-registration.html"));
