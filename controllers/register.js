@@ -3,7 +3,7 @@ const {updatelogin_clueminati,updatelogin_arsenal, updatesession_clueminati}  = 
 
 exports.getdetails = async (req, res, next) => {
   try {
-    if (req.body.rollno && req.body.password && req.body.name && req.body.email) {
+    if (req.body.rollno>=100000000 && `${req.body.rollno}`.length === 9 && req.body.password && req.body.name && req.body.email) {
       const getdata = await getrollno(req.body.rollno);
       if (getdata.rowCount > 0) {
         res.render("layout/registration", {
@@ -31,7 +31,9 @@ exports.getdetails = async (req, res, next) => {
           message: "Successfully registered! ",
         })
       }
-    } else res.redirect("/registration");
+    } else  res.render("layout/registration", {
+      message: "Invalid Credentials! ",
+    })
   } catch (err) {
     next(err)
   }
