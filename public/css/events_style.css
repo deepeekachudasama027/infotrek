@@ -132,6 +132,14 @@ html,body {
   
 }
 
+.btn a{
+  color:black;
+}
+
+.btn a:hover {
+  color:black;
+}
+
 .modal-img {
     padding-left: 5%;
     padding-bottom: 5%;
