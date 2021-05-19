@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Blinker:400,800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html {
   overflow-x: hidden;
@@ -27,7 +28,7 @@ body {
   z-index: -1;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+
 .hero {
   position: relative; 
   height: 100vh;
@@ -35,7 +36,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.hero .timer {
+/* .hero .timer {
   display: flex;
   place-content: center;
   padding: 2rem;
@@ -66,8 +67,13 @@ body {
 .hero .timer p {
   color: whitesmoke;
   margin-left: 28%;
-}
+} */
 
+#live{
+  font-family: "Montserrat" !important;
+  color: white;
+  font-size:3rem !important;
+}
 
 #page-wrap {
   width: 800px;
@@ -124,6 +130,8 @@ body {
   animation-fill-mode: both;
   animation-timing-function: linear;
 }
+
+
 
 @media screen and (max-width: 600px)  {
   body {
@@ -189,6 +197,12 @@ body {
     font-size: 1rem;
    
   }
+  #live{
+  margin-left: 2%;
+  margin-top: -2%;
+  width: 100%;
+    font-size:1.5rem !important;
+  }
 
 }
 
@@ -246,7 +260,12 @@ body {
     margin-right: 0.8rem;
     font-size: 1rem;
   }
-
+  #live{
+    margin-left: -1%;
+    margin-top: -2%;
+    width: 100%;
+      font-size:1.5rem !important;
+    }
 
 }
 
@@ -291,6 +310,12 @@ body {
     right: 10%;
     margin-top: 24rem;
   }
+  #live{
+    margin-left: -20%;
+    margin-top: -10%;
+    width: 100%;
+      font-size:1.5rem !important;
+    }
 }
 
 
@@ -348,6 +373,13 @@ body {
     padding: 0;
     margin: 0.5em 1em;
     font-size: 1rem;
+ 
+ }
+ #live{
+  margin-left: -20%;
+  margin-top: -10%;
+  width: 100%;
+    font-size:1.5rem !important;
   }
 }
 
